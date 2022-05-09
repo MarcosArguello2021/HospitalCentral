@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="400" height="150" preserveAspectRatio="xMidYMid meet" version="1.0" xmlns="http://www.w3.org/2000/svg">
+  <g id="Layer_1">
+    <title>Layer 1</title>
+    <g>
+      <g fill="#000000" transform="rotate(90 69.4718 74.0925) translate(0 140) scale(0.1 -0.1)">
+        <path d="m411.71885,1016.26762c2,-195 7,-293 14,-295c6,-2 25,19 42,45c44,69 156,171 228,209c69,37 166,63 237,63l47,0l0,135l0,135l-285,0l-285,0l2,-292z" style="fill: rgb(1, 155, 217);"/>
+        <path d="m934.71885,568.26762c-27,-52 -157,-175 -225,-212c-76,-42 -129,-58 -225,-67l-70,-6l-3,-132c-3,-131 -2,-133 20,-138c13,-3 140,-4 283,-3l260,3l3,293c2,253 0,292 -13,292c-8,0 -21,-14 -30,-30z" style="fill: rgb(1, 155, 217);"/>
+      </g>
+    </g>
+    <g>
+      <g fill="#000000" transform="translate(0 140) scale(0.1 -0.1)">
+        <path d="m412.30385,1013.09518c2,-195 7,-293 14,-295c6,-2 25,19 42,45c44,69 156,171 228,209c69,37 166,63 237,63l47,0l0,135l0,135l-285,0l-285,0l2,-292z" style="fill: rgb(100, 32, 115);"/>
+        <path d="m935.30385,565.09518c-27,-52 -157,-175 -225,-212c-76,-42 -129,-58 -225,-67l-70,-6l-3,-132c-3,-131 -2,-133 20,-138c13,-3 140,-4 283,-3l260,3l3,293c2,253 0,292 -13,292c-8,0 -21,-14 -30,-30z" style="fill: rgb(100, 32, 115);"/>
+      </g>
+    </g>
+    <text id="svg_46" style="fill: rgb(0, 0, 65); font-family: &quot;Noto Sans JP&quot;; font-size: 24px; font-weight: 700; stroke-width: 0px; white-space: pre;" x="263.256" y="54">CENTRAL</text>
+    <text stroke="null" text-anchor="start" font-family="Noto Sans JP" font-size="24" id="svg_48" y="53.27182" x="148.84031" stroke-width="0" fill="#1A333F" style="white-space: pre;">HOSPITAL</text>
+    <text text-anchor="start" font-family="Noto Sans JP" font-size="24" id="svg_49" y="90.20875" x="187.09257" stroke-width="0" stroke="null" fill="#0E353B" style="white-space: pre;">DE MENDOZA</text>
+  </g>
+</svg>
