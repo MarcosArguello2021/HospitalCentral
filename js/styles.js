@@ -15,7 +15,7 @@ navToggle.addEventListener("click", ()=>{
 } )
 
 
-//Se oculta el navbar cunado usamos el scroll. Cuando hacemos para arriba, se munestra el navbar
+//Se oculta el navbar cuando usamos el scroll.
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
@@ -29,4 +29,4 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 } 
-
+ 

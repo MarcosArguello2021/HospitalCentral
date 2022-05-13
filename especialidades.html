@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Doctores</title>
+    <title>Especialidades</title>
     <link rel="stylesheet" href="css/grid.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Nunito&display=swap"
         rel="stylesheet">
     <script defer src="js/styles.js"></script>
+    <script defer src="js/datos.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway&family=Ubuntu&display=swap');
     </style>
@@ -22,7 +23,7 @@
 <body class="grid-container">
     <header class="header" id="navBarId">
         <nav class="navBar">
-            <a href="/index.html" class="logo nav-link"><img src="img/hospital2.svg" height="70"></img></a></li>
+            <a href="/index.html" class="logo nav-links"><img src="img/hospital2.svg" height="70"></img></a></li>
             <button class="nav-toggle" aria-label="Abrir menú">
                 <i class="fa-solid fa-bars"></i>
             </button>
@@ -57,97 +58,89 @@
     <aside class="sidebar">
         </div>
         <div class="sidebar-nosotros-h2">
-            Notificaciones Importantes. <span>Puntos a tener en cuenta.</span>
+            Notificaciones Importantes.      
+            <span>Puntos a tener en cuenta.</span>
         </div>
         </div>
         <div class="sidebar-nosotros-mapas">
-           <div class="sidebar-especialidades-img">
-               <img src="img/especialidades/1.jpg" alt="">
-           </div> 
-           <div class="sidebar-especialidades-img">
-            <img src="img/especialidades/2.jpg" alt="">
-        </div> 
+            <div class="sidebar-especialidades-img">
+                <img src="img/especialidades/1.jpg" id="sidebar-especialidades-img-img" alt="">
+            </div>
+            <div class="sidebar-especialidades-img">
+                <img src="img/especialidades/2.jpg" id="sidebar-especialidades-img-img" alt="">
+            </div>
         </div>
     </aside>
     <article class="main">
-        <div class="main-especialidades">
-            <img src="img/especialidades/especialidades.jpg" alt="Notebook" style="width:100%;">
-            <div class="main-especialidades-titulo">
-              <h2>Especialidades médicas</h1>
-        </div>
-        <div class="main-especialidades">
-
+        <div class="container-especialidades">
+            <div class="main-especialidades">
+                <img src="img/especialidades/especialidades.jpg" id="main-especialidades-titulo-img" alt="Notebook" style="width:100%;">
+                <div class="main-especialidades-titulo">
+                    <h2>Especialidades médicas</h1>
+                </div>
+            </div>
+            <div class="main-especialidades-card" id="main-especialidades-card"></div>
         </div>
     </article>
-
     <footer class="footer">
         <div class="footer-row footer-row-primary">
-            <div class="column about">
-                <h3>Hospital Central</h3>
-                <p>
+            <div class="footer-column">
+                <h3 class="footer-h3">Hospital Central</h3>
+                <p class="footer-about-p">
                     El Hospital Central es el principal nosocomio de la Prov. de Mendoza, ya que es un hospital de
                     referencia en alta complejidad, urgencias y como hospital escuela.
                 </p>
-                <div class="social">
+                <div class="footer-social">
                     <a href="https://es-la.facebook.com/pages/category/Hospital/Hospital-Central-de-Mendoza-225764094136784/"
-                        target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
+                        target="_blank"><i class="fa-brands fa-facebook-square footer-social-i"></i></a>
                     <a href="https://www.instagram.com/hospitalcentraldemendoza/" target="_blank"><i
-                            class="fa-brands fa-instagram-square"></i></a>
+                            class="fa-brands fa-instagram-square footer-social-i"></i></a>
                     <a href="https://mobile.twitter.com/HCentral_Mza/" target="_blank"><i
-                            class="fa-brands fa-twitter-square"></i></a>
+                            class="fa-brands fa-twitter-square footer-social-i"></i></a>
                     <a href="https://www.youtube.com/channel/UCy2Lujd5DeXdmFpbeGWGNzg" target="_blank"><i
-                            class="fa-brands fa-youtube-square"></i></a>
+                            class="fa-brands fa-youtube-square footer-social-i"></i></a>
                 </div>
             </div>
-            <div class="column links">
-                <h3>Servicios</h3>
-                <ul>
-                    <li>
-                        <a href="#laboratorio">Laboratorio</a>
+            <div class="footer-column links">
+                <h3 class="footer-h3">Servicios</h3>
+                <ul class="footer-ul">
+                    <li class="footer-li">
+                        <a href="#laboratorio" class="footer-ul-li-a">Laboratorio</a>
                     </li>
                     <li>
-                        <a href="especialidades.html">Especialidades Médicas</a>
+                        <a href="especialidades.html" class="footer-ul-li-a">Especialidades Médicas</a>
                     </li>
                     <li>
-                        <a href="doctores.html">Doctores</a>
+                        <a href="doctores.html" class="footer-ul-li-a">Doctores</a>
                     </li>
                 </ul>
             </div>
-            <div class="column links">
-                <h3>Información General</h3>
-                <ul>
-                    <li>
-                        <a href="#faq">F.A.Q</a>
+            <div class="footer-column links">
+                <h3 class="footer-h3">Información General</h3>
+                <ul class="footer-ul">
+                    <li class="footer-li" class="footer-ul-li-a">
+                        <a href="#faq" class="footer-ul-li-a">F.A.Q</a>
                     </li>
                     <li>
-                        <a href="#cookies-policy">Política de cookies</a>
+                        <a href="#cookies-policy" class="footer-ul-li-a">Política de cookies</a>
                     </li>
                     <li>
-                        <a href="#terminos">Términos del Servicio</a>
+                        <a href="#terminos" class="footer-ul-li-a">Términos del Servicio</a>
                     </li>
                     <li>
-                        <a href="#soporte">Soporte</a>
+                        <a href="#soporte" class="footer-ul-li-a">Soporte</a>
                     </li>
-
                 </ul>
-            </div>
-            <div class="column subscribe">
-                <h3>Newsletter</h3>
-                <div>
-                    <input type="email" placeholder="Su dirección mail" />
-                    <button>Suscríbase</button>
-                </div>
-
             </div>
         </div>
         <div class="footer-row footer-copyright">
             <div class="footer-menu">
-                <a href="/nosotros.html">Nosotros</a>
-                <a href="/doctores.html">Doctores</a>
-                <a href="/especialidades.html">Especialidades</a>
-                <a href="/contacto.html">Contáctenos</a>
+                <a href="/nosotros.html" class="footer-menu-a">Nosotros</a>
+                <a href="/doctores.html" class="footer-menu-a">Doctores</a>
+                <a href="/especialidades.html" class="footer-menu-a">Especialidades</a>
+                <a href="/contacto.html" class="footer-menu-a">Contáctenos</a>
             </div>
-            <p>Copyright &copy; Marcos Argüello</p>
+            <p class="footer-copyright-p">Copyright &copy; Marcos Argüello</p>
         </div>
     </footer>
 </body>
